@@ -1,10 +1,11 @@
-# GroupMe Bot Starter
+# FRC GroupMe Bot
 
 [![GNU GPLv3 License](https://img.shields.io/github/license/acmatuc/groupme-bot-starter.svg?maxAge=2592000)]()
 [![Dependencies Status](https://david-dm.org/acmatuc/groupme-bot-starter/status.svg)](https://david-dm.org/acmatuc/groupme-bot-starter)
 [![Dependencies Status](https://david-dm.org/acmatuc/groupme-bot-starter/dev-status.svg)](https://david-dm.org/acmatuc/groupme-bot-starter?type=dev)
 
-> Starter code for the GroupMe bot workshop at ACM@UC
+> Based on Starter code for the GroupMe bot workshop at ACM@UC
+> The bulk of this readme is from it's base groupme-bot-starter
 
 ![bot interaction](screenshots/bot-interaction.jpg)
 
@@ -46,6 +47,12 @@ You'll need a few things before you start:
 
 * Launch the GroupMe app (or use [web.groupme.com](https://web.groupme.com/)) and create a new group (or use an existing group)
 
+### 1.5 Generate a TBA API Key
+
+* Navigate to [thebluealliance.com/account](https://www.thebluealliance.com/account)
+* Create an account if you do not have one
+* Generate a Read API key
+
 ### 1. Register a new GroupMe Bot
 
 * Head over to [dev.groupme.com](https://dev.groupme.com/) and login with your GroupMe credentials
@@ -66,6 +73,7 @@ Let's get this bot running on localhost!
 * Install dependencies with `npm install`
 * Setup a `.env` for storing your GroupMe bot id
     * Copy `.env.example` to `.env` with `cp .env.example .env`
+    * Put your TBA API key in the key field for the value 'API_KEY'
     * Put your bot id in the key field for the value `BOT_ID` and save
 
 ### 3. Starting The Server
@@ -79,6 +87,9 @@ Let's get this bot running on localhost!
     * Launch GroupMe and open the group that the bot is registered in
     * Post a message in the chat. By default the bot is setup to respond to messages starting with `/shrug`, so do that
     * You should see that the bot responds with `¯\_(ツ)_/¯`
+* Returning eam info
+    * Send the command '/team' followed by a team number
+    * The bot should respond with 'Team ####, Name, is from City, State.
 
 #### Note: Running on your local machine
 
@@ -132,4 +143,5 @@ Check out [dev.groupme.com](https://dev.groupme.com/) for more information on Gr
 
 [GNU GPLv3 License](LICENSE.txt)
 
+* Based on [ACMatUC/groupme-bot-starter](https://github.com/ACMatUC/groupme-bot-starter) (GNU GPLv3 License)
 * Some content based on [groupme/bot-tutorial-nodejs](https://github.com/groupme/bot-tutorial-nodejs) (MIT License)
