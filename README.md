@@ -16,7 +16,7 @@ You'll need a few things before you start:
     * Windows: install with [git-scm.com](https://git-scm.com/)
     * OS X: install with [git-scm.com](https://git-scm.com/) or [brew](http://brew.sh/)
     * Run `git --version` to verify that Git is installed
-* Node.js >=4.0.0
+* Node.js >=8.0.0
     * Windows: install with [nodejs.org](https://nodejs.org/) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
     * OS X: install with [nodejs.org](https://nodejs.org), [nvm](https://github.com/creationix/nvm), or [brew](http://brew.sh/)
     * Run `node --version` to see your Node.js version and verify that it is installed
