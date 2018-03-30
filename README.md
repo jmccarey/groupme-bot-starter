@@ -1,8 +1,6 @@
 # FRC GroupMe Bot
 
 [![GNU GPLv3 License](https://img.shields.io/github/license/acmatuc/groupme-bot-starter.svg?maxAge=2592000)]()
-[![Dependencies Status](https://david-dm.org/acmatuc/groupme-bot-starter/status.svg)](https://david-dm.org/acmatuc/groupme-bot-starter)
-[![Dependencies Status](https://david-dm.org/acmatuc/groupme-bot-starter/dev-status.svg)](https://david-dm.org/acmatuc/groupme-bot-starter?type=dev)
 
 > Based on Starter code for the GroupMe bot workshop at ACM@UC
 > The bulk of this readme is from it's base groupme-bot-starter
