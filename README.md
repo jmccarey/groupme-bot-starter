@@ -85,7 +85,7 @@ Let's get this bot running on localhost!
     * Launch GroupMe and open the group that the bot is registered in
     * Post a message in the chat. By default the bot is setup to respond to messages starting with `/shrug`, so do that
     * You should see that the bot responds with `¯\_(ツ)_/¯`
-* Returning eam info
+* Returning team info
     * Send the command '/team' followed by a team number
     * The bot should respond with 'Team ####, Name, is from City, State.
 
